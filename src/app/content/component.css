@@ -3,5 +3,7 @@
     min-height: calc(100vh - 270px);
     height: auto;
     margin-top: 70px;
+    padding-top: 40px;
     background-color: #b6d784;
+    box-sizing: border-box;
 }
