@@ -1,7 +1,6 @@
 import React from 'react';
 
-import UserInfo from './userInfo';
-
+import UserInfo from '../userInfo';
 
 import './component.css';
 
@@ -18,15 +17,14 @@ class Comment extends React.Component {
         }
     }
 
-   foo = (num) => {
+    foo = (num) => {
         let met = num.map((item, index) => {
             return (
                 <li key={index} >
                     <span>{item}</span>
                 </li>
             )
-        })
-        console.log(met);
+        });
         return met
     }
 
@@ -49,5 +47,4 @@ class Comment extends React.Component {
     }
 }
 
-
-export default Comment
+export default Comment;

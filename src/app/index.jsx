@@ -1,7 +1,7 @@
 import React from  'react';
-import Header from './header';
-import Footer from './footer';
-import Content from './content'
+import Header from './sections/header';
+import Content from './sections/content'
+import Footer from './sections/footer';
 
 function App(){
     return(
@@ -12,4 +12,5 @@ function App(){
         </div>
     )
 }
+
 export default App;
