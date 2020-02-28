@@ -1,22 +1,27 @@
 import React from 'react';
 
+import {BrowserRouter as Router,Link} from 'react-router-dom'
+
 function Header() {
     return (
+    <Router>
         <header style={styles.header}>
             <div style={styles.headerCenter}>
                 <ul style={styles.headerMenu}>
                     <li style={styles.headerMenuItem}>
-                        Home
+                        <Link to="/">Home</Link>
                     </li>
                     <li style={styles.headerMenuItem}>
-                        About
+                        <Link to="/about">About</Link>
                     </li>
                     <li style={styles.headerMenuItem}>
-                        Contact
+                        <Link to ="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
         </header>
+    </Router>
+        
     )
 }
 
