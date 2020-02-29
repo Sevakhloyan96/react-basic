@@ -1,10 +1,10 @@
 import React from  'react';
 
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 
-import Home from './pages/home';
-import About from './pages/about';
-
+import Header from './sections/header';
+import Content from './sections/content';
+import Footer from './sections/footer';
 
 
 
@@ -13,8 +13,9 @@ import About from './pages/about';
 function App(){
     return(
         <Router>
-            <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
+           <Header />
+            <Content />
+            <Footer />
         </Router>
        
     )

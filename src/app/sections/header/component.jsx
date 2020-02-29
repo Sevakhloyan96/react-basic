@@ -1,10 +1,10 @@
 import React from 'react';
 
-import {BrowserRouter as Router,Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Header() {
     return (
-    <Router>
+    
         <header style={styles.header}>
             <div style={styles.headerCenter}>
                 <ul style={styles.headerMenu}>
@@ -20,7 +20,7 @@ function Header() {
                 </ul>
             </div>
         </header>
-    </Router>
+    
         
     )
 }
