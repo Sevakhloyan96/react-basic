@@ -4,9 +4,6 @@ import SwitchComponent from './../../components/switchComponent';
 import Toggle from './../../components/toggle';
 
 
-
-
-
 function Home() {
     return(   
     <div>
@@ -30,7 +27,5 @@ const styles = {
         backgroundColor: 'greentellow',
     }
 }
-
-
 
 export default Home;
